@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Russo+One&display=swap');
+html
+{
+	font-size: 14px;
+}
+
+body
+{
+	margin: 0px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+.menu
+{
+	background: #191970;
+	min-height: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu ul 
+{
+	display: flex;
+	justify-content: space-around;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu ul li
+{
+	list-style-type: none;
+}
+
+.menu ul li a 
+{
+	font-family: 'Oswald', sans-serif;
+	font-size:1.7rem;
+	color: #FFFAFA;
+	text-decoration: none;
+}
+
+.menu ul li a:hover
+{
+	color: #FFFF00;
+}
+
+.titlee
+{
+	font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: #00008B;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.content p
+{
+	font-size: 1.7rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0px;
+}
+
+.content
+{
+	margin: 50px 0;
+}
+
+footer
+{
+  	min-height: 20%;
+	background: #3D3D3D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu
+{
+	flex:20%;
+}
+
+.content
+{
+	flex:60%;
+}
+
+footer
+{
+	flex:20%;
+}
+
+footer h2
+{
+	font-family: 'Oswald', sans-serif;
+	font-size:1.7rem;
+	color: #FFFAFA;
+	margin: 0;
+	font-weight: normal;
+}
+
+.block
+{
+	width: 50%;
+	/*height: 157px;*/
+	/*margin:0px auto;*/
+	margin:0px auto 30px auto;
+	background: #AFEEEE;
+	display: flex;
+}
+
+.image
+{
+	display: block;
+	/*width:320px;
+	height:225px;*/
+	width: 40%;
+	/*width:220px;
+	height:157px;*/
+}
+
+.right-box
+{
+	width: 60%;
+	padding: 2%;
+}
+
+.right-box h2
+{
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.right-box h2 a
+{
+	text-decoration: none;
+	font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #00008B;
+}
+
+.right-box h2 a:hover
+{
+	color: #FFFF00;
+}
+
+.right-box p
+{
+	text-align: justify;
+	font-size: 0.8rem;
+    font-family: 'Oswald', sans-serif;
+    /*border:1px solid DarkBlue;*/
+    height: 50%;
+    /*overflow-y: auto;*/
+}
+
+.price
+{
+	font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
+.selection
+{
+	color: red;
+}
+
+.active
+{
+	color: #FFFF00 !important;
+}
+
+.blockk
+{
+	width: 40%;
+	margin:0px auto;
+	border:3px solid DarkBlue;
+}
+
+.image_detail
+{
+	display: block;
+	width: 100%;
+}
+
+.blockk div p
+{
+	font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    padding: 3%;
+}
+
+.blockk h2
+{
+	font-size: 1.7rem;
+    font-family: 'Oswald', sans-serif;
+    color: #00008B;
+    text-align: center;
+    margin: 0px;
+}
+
+@media screen and (max-width: 800px)
+{
+	.block
+	{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.block
+	{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.block
+	{
+		width: 90%;
+	}
+
+	.image
+	{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.block
+	{
+		flex-direction: column;
+	}
+
+	.image
+	{
+		width: 100%;
+	}
+
+	.block
+	{
+		width: 60%;
+	}
+
+	.right-box
+	{
+		width: 100%;
+	}	
+}
+
+@media screen and (max-width: 700px)
+{
+	.blockk
+	{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.blockk
+	{
+		width: 90%;
+	}
+}
+
+
+
+
